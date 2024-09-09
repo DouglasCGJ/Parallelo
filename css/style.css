@@ -1,0 +1,198 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 5000;
+}
+header{
+    width: 100%;
+    height: 928px;
+    background-image: url(../img.p/slidebg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+}
+header ul li span {
+    color: #868686;
+    font-size: 11px;
+    margin: 5px 3px 0 0;
+    float: left;
+}
+nav{
+    background-color: black;
+    height: 125px;
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 15px auto 0 auto;
+    position: sticky;
+    top: 0;
+}
+nav #logo{
+    margin: 20;  
+    float: left;
+}
+nav #logo img{
+    height: 85px;
+}
+nav #e{
+    width:300px;
+}
+nav ul{
+    float: left;
+    padding: 32px;
+    margin-left: 65px;
+    display:  flex;
+    list-style: none;
+    width: 400px;
+    
+}
+nav ul li{
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    float: right;
+    list-style: none;
+    color: white;
+    margin-left: 80px;
+}
+nav ul li a{
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: 1s;
+    font-family: Montserrat, sans-serif;
+    padding-top: 5px;
+    font-size: 18px;
+}
+nav a:hover, .selected {
+    transition: 1s ease;
+    color: #e7a920; 
+    text-decoration: line-through;
+}
+nav ul li span {
+    color: #868686;
+    font-size: 11px;
+    margin: 5px 3px 0 0;
+    float: left;
+}
+
+.frase{
+    background-image: url(../img.p/divider-dark.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: repeat-x;
+    padding-top: 100px ;
+}
+
+div.icons{
+height: 120px;
+width: 345px;
+margin: 50px auto;
+display: flex;
+flex-direction: row;
+}
+div.txt{
+height: 80px;
+width: 100%;
+margin: 0 auto;
+}
+.icons .icon img{
+    height: 115px;
+    width: 115px;
+    display: flex;
+    margin: 13px;
+    float: left;
+}
+
+/*----------------------------------------------------------SEM INTERNET----------------------------------------------------------*/
+.txt{
+    min-width: 1200px;
+    max-width: 1400px;
+}
+.txt h6{
+    font-size: 28px;
+    font-weight: 300;
+    width: 100%;
+    display: inline-block;
+    line-height: 40px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 20 00 0 30;
+    /*Mudar a fonte pelo google fotos*/
+}
+
+.frase2{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 0 auto;
+}
+.N h4{
+    width: 100%;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 11px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    color: #e7a920;
+
+}
+.P h1{
+    width: 100%;
+    font-size: 85px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    
+}
+.waves img{
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0;
+    margin: 10 auto;
+    display: block;
+}
+.f h4{
+    width: 100%;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    margin: 20 auto;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------TRABALHOS------------------------------------------------------------*/
+
+#trabalhos{
+    background-color: aqua;
+}
